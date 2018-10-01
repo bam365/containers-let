@@ -1,0 +1,12 @@
+opam-version: "1.2"
+name: "containers_let"
+version: "0.1"
+maintainer: "Blake Mitchell <bam365@mst.edu>"
+author: "Blake Mitchell <bam365@mst.edu"
+build: [
+    ["jbuilder" "build" "-p" name]
+]
+depends: [
+    "jbuilder" {build & >= "1.0+beta17"}
+]
+available: [ocaml-version >= "4.00.0"]

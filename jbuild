@@ -1,0 +1,6 @@
+(jbuild_version 1)
+
+(library
+    ((name        containers_let)
+     (public_name containers_let)
+     (libraries (containers))))
